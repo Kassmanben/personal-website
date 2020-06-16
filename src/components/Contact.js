@@ -27,7 +27,7 @@ function Contact() {
         <b>accessibility, activism, & absurdist humor</b>
       </p>
 
-      <ul>
+      <ul className="contact-list">
         <li>
           <svg
             xmlns="http://www.w3.org/2000/svg"

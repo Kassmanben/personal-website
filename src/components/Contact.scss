@@ -1,5 +1,9 @@
+p {
+  font-weight: 200;
+}
+
 h3 {
-  font-family: "Cutive Mono", sans-serif;
+  font-family: "Source Code Pro", sans-serif;
   font-weight: bolder;
   text-align: left;
   font-size: xx-large;
@@ -11,13 +15,13 @@ h1 {
   font-size: 34px;
 }
 .contact {
-  font-family: "Cutive Mono", sans-serif;
+  font-family: "Source Code Pro", sans-serif;
   text-align: left;
   font-size: larger;
   margin: 30px 5%;
 }
 
-ul {
+.contact-list {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1em;
@@ -120,7 +124,7 @@ h3 a {
     font-weight: 700;
   }
 
-  ul {
+  .contact-list {
     width: 62%;
     font-size: medium;
     margin: 0 auto;

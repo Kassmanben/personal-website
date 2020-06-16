@@ -73,7 +73,7 @@ class Projects extends Component {
         padding: "25px",
         backgroundColor: "white",
         borderRadius: "0 20px 0 0",
-        fontFamily: "Cutive Mono, sans-serif",
+        fontFamily: "Source Code Pro, sans-serif",
         fontWeight: "700",
         transition: "border .5s ease-in, max-width .6s, color .1s ease-in",
       },
