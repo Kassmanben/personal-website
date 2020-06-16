@@ -1,0 +1,18 @@
+nav {
+  font-family: "Cutive Mono", sans-serif;
+  margin: 20px 0 0;
+}
+
+.nav-link {
+  padding: 10px calc(2vw);
+  font-size: x-large;
+  text-decoration: underline;
+  color: black;
+}
+/* Tablet and larger  */
+@media screen and (min-width: 768px) {
+  .nav-link {
+    font-size: xx-large;
+    padding: 10px calc(3vw);
+  }
+}

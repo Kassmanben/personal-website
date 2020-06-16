@@ -1,0 +1,19 @@
+.header {
+  font-family: "Righteous", sans-serif;
+  font-size: 45px;
+  margin: 10px auto;
+  color: black;
+  text-shadow: -0.04em 0 #f1a0ff, 0.04em 0 #74c7e8;
+  transition: all 0.5s;
+
+  &:hover {
+    text-shadow: none;
+  }
+}
+
+/* Tablet and larger  */
+@media screen and (min-width: 768px) {
+  .header {
+    font-size: 80px;
+  }
+}
