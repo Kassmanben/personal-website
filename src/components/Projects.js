@@ -188,7 +188,7 @@ class Projects extends Component {
           <div className="project_section">
             <h3>
               <a
-                className="hover-shadow-no-underline hover-color-no-underline podscript"
+                className="hover-link podscript"
                 target="_blank"
                 aria-label="Podscript"
                 onClick={this.toggleModal(PODSCRIPT)}
@@ -212,7 +212,7 @@ class Projects extends Component {
             <h3>
               <a
                 onClick={this.toggleModal(BOTWEEK)}
-                className="hover-shadow-no-underline hover-color-no-underline botweek"
+                className="hover-link botweek"
                 target="_blank"
                 aria-label="BotWeek"
                 rel="noopener noreferrer"
@@ -234,7 +234,7 @@ class Projects extends Component {
             <h3>
               <a
                 onClick={this.toggleModal(RESILIENCE1220)}
-                className="hover-shadow-no-underline hover-color-no-underline resilience"
+                className="hover-link resilience"
                 target="_blank"
                 aria-label="Resilience1220"
                 rel="noopener noreferrer"
@@ -262,7 +262,7 @@ class Projects extends Component {
             <h3>
               <a
                 onClick={this.toggleModal(PEACETREE)}
-                className="hover-shadow-no-underline hover-color-no-underline peacetree"
+                className="hover-link peacetree"
                 target="_blank"
                 aria-label="Peacetree"
                 rel="noopener noreferrer"
@@ -285,7 +285,7 @@ class Projects extends Component {
             <h3>
               <a
                 onClick={this.toggleModal(SLICEOFLIFE)}
-                className="hover-shadow-no-underline hover-color-no-underline slice-of-life"
+                className="hover-link slice-of-life"
                 target="_blank"
                 aria-label="Slice Of Life"
                 rel="noopener noreferrer"
@@ -312,7 +312,7 @@ class Projects extends Component {
             <h3>
               <a
                 onClick={this.toggleModal(DONATIONCALCULATION)}
-                className="hover-shadow-no-underline hover-color-no-underline donation-calculation"
+                className="hover-link donation-calculation"
                 target="_blank"
                 aria-label="Donation Calculation"
                 rel="noopener noreferrer"

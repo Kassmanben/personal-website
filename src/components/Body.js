@@ -20,7 +20,7 @@ function Body() {
           In my free time, I try to be a good father to my{" "}
           <a
             href="https://twitter.com/wikileek_"
-            className="body_link_leading hover-shadow hover-color"
+            className="hover-link"
             target="_blank"
             aria-label="terrible"
             rel="noopener noreferrer"
@@ -36,7 +36,7 @@ function Body() {
           </a>{" "}
           <a
             href="https://twitter.com/influencer_bot"
-            className="body_link hover-shadow hover-color"
+            className="hover-link"
             target="_blank"
             aria-label="Twitter"
             rel="noopener noreferrer"
@@ -51,7 +51,7 @@ function Body() {
           </a>{" "}
           <a
             href="https://twitter.com/mobydick_bot"
-            className="body_link hover-shadow hover-color"
+            className="hover-link"
             target="_blank"
             aria-label="bot"
             rel="noopener noreferrer"
@@ -62,7 +62,7 @@ function Body() {
           </a>{" "}
           <a
             href="https://twitter.com/WillShaky"
-            className="body_link hover-shadow hover-color"
+            className="hover-link"
             target="_blank"
             aria-label="children"
             rel="noopener noreferrer"
@@ -80,7 +80,7 @@ function Body() {
           make useful things, such as{" "}
           <a
             href="https://podscript.net"
-            className="body_link_leading hover-shadow hover-color"
+            className="hover-link"
             target="_blank"
             aria-label="Podscript"
             rel="noopener noreferrer"
@@ -102,7 +102,7 @@ function Body() {
           I also host a{" "}
           <a
             href="https://bit.ly/magneticlovepod"
-            className="body_link_leading hover-shadow hover-color"
+            className="hover-link"
             target="_blank"
             aria-label="podcast"
             rel="noopener noreferrer"

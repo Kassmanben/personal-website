@@ -57,13 +57,13 @@ h1 {
     }
     @if $i > 10 {
       &:nth-child(#{$i}) {
-        transition-delay: #{$i * 0.01 + 0.35}s;
+        transition-delay: #{$i * 0.01 + 0.25}s;
       }
     }
   }
 }
 
-a {
+.hover-link {
   color: black;
   cursor: pointer;
   text-shadow: none;

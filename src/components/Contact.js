@@ -12,7 +12,7 @@ function Contact() {
         I am, however, happy to speak at your conference! I gave{" "}
         <a
           href="https://www.youtube.com/watch?v=NOcdJQW5Rqs"
-          className="hover-shadow-no-underline hover-color-no-underline"
+          className="hover-link"
           target="_blank"
           aria-label="a conference talk at Donut.js"
           rel="noopener noreferrer"
@@ -50,7 +50,7 @@ function Contact() {
         in Febrary of 2020, and I've given lightning talks at{" "}
         <a
           href="https://www.meetup.com/Portland-DevOps-GroundUp/"
-          className="hover-shadow-no-underline hover-color-no-underline"
+          className="hover-link"
           target="_blank"
           aria-label="PDX DevOps"
           rel="noopener noreferrer"
@@ -69,7 +69,7 @@ function Contact() {
         in 2019 and the{" "}
         <a
           href="http://ml4all.org/"
-          className="hover-shadow-no-underline hover-color-no-underline"
+          className="hover-link"
           target="_blank"
           aria-label="ML4All Conference"
           rel="noopener noreferrer"
@@ -105,7 +105,7 @@ function Contact() {
         <li>
           <a
             href="https://www.instagram.com/kassman_ben/?hl=en"
-            className="hover-shadow-no-underline hover-color-no-underline"
+            className="hover-link"
             target="_blank"
             aria-label="Instagram"
             rel="noopener noreferrer"
@@ -136,7 +136,7 @@ function Contact() {
         <li>
           <a
             href="mailto:me@kassmanben.com"
-            className="hover-shadow-no-underline hover-color-no-underline"
+            className="hover-link"
             target="_blank"
             aria-label="Email"
             rel="noopener noreferrer"
@@ -161,7 +161,7 @@ function Contact() {
         <li>
           <a
             href="https://www.twitter.com/kassman_ben/"
-            className="hover-shadow-no-underline hover-color-no-underline"
+            className="hover-link"
             target="_blank"
             aria-label="Twitter"
             rel="noopener noreferrer"
@@ -188,7 +188,7 @@ function Contact() {
         <li>
           <a
             href="https://www.linkedin.com/in/ben-kassman/"
-            className="hover-shadow-no-underline hover-color-no-underline"
+            className="hover-link"
             target="_blank"
             aria-label="LinkedIn"
             rel="noopener noreferrer"

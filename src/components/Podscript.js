@@ -4,7 +4,7 @@
   I have given a couple conference talks about it, one of which can be seen
   <a
     href="https://www.youtube.com/watch?v=NOcdJQW5Rqs&list=PLclEcT4yxER7OrOA4OeG4_6UzM4rphQJ7&index=2"
-    className="body_link_leading hover-shadow-no-underline hover-color-no-underline"
+    className="body_link_leading hover-link"
     target="_blank"
     aria-label="here"
   >
@@ -26,7 +26,7 @@
     <li>
       <a
         href="https://twitter.com/wikileek_"
-        className="hover-shadow-no-underline hover-color-no-underline"
+        className="hover-link"
         target="_blank"
         aria-label="Wikileek"
       >
@@ -44,7 +44,7 @@
     <li>
       <a
         href="https://twitter.com/influencer_bot"
-        className="hover-shadow-no-underline hover-color-no-underline"
+        className="hover-link"
         target="_blank"
         aria-label="ApologyBot"
       >
@@ -64,7 +64,7 @@
     <li>
       <a
         href="https://twitter.com/mobydick_bot"
-        className="hover-shadow-no-underline hover-color-no-underline"
+        className="hover-link"
         target="_blank"
         aria-label="MobyDickBot"
       >
@@ -85,7 +85,7 @@
     <li>
       <a
         href="https://twitter.com/WillShaky"
-        className="hover-shadow-no-underline hover-color-no-underline"
+        className="hover-link"
         target="_blank"
         aria-label="WillShaky"
       >
@@ -108,7 +108,7 @@
     article
     <a
       href="https://medium.com/@kassmanben/creating-a-markov-chain-based-twitter-bot-using-python-node-js-and-heroku-1ac0b5912f2d"
-      className="body_link_leading hover-shadow-no-underline hover-color-no-underline"
+      className="body_link_leading hover-link"
       target="_blank"
       aria-label="here"
     >

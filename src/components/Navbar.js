@@ -10,14 +10,18 @@ function Navbar() {
     <Router>
       <div>
         <nav>
-          <Link to="/" className="nav-link" aria-label="Home">
+          <Link to="/" className="nav-link hover-link" aria-label="Home">
             <span>H</span>
             <span>o</span>
             <span>m</span>
             <span>e</span>
           </Link>
 
-          <Link to="/projects" className="nav-link" aria-label="Projects">
+          <Link
+            to="/projects"
+            className="nav-link hover-link"
+            aria-label="Projects"
+          >
             <span>P</span>
             <span>r</span>
             <span>o</span>
@@ -28,7 +32,11 @@ function Navbar() {
             <span>s</span>
           </Link>
 
-          <Link to="/contact" className="nav-link" aria-label="Contact">
+          <Link
+            to="/contact"
+            className="nav-link hover-link"
+            aria-label="Contact"
+          >
             <span>C</span>
             <span>o</span>
             <span>n</span>
