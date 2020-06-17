@@ -8,7 +8,7 @@ function Body() {
       <img
         src={pic}
         className="profilePic"
-        alt="A handdrawn picture of Ben, by @kindoflinc"
+        alt="A handdrawn portrait of Ben, by @kindoflinc"
       ></img>
       <div className="desc">
         <p className="">
@@ -23,6 +23,7 @@ function Body() {
             className="body_link_leading hover-shadow hover-color"
             target="_blank"
             aria-label="terrible"
+            rel="noopener noreferrer"
           >
             <span>t</span>
             <span>e</span>
@@ -38,6 +39,7 @@ function Body() {
             className="body_link hover-shadow hover-color"
             target="_blank"
             aria-label="Twitter"
+            rel="noopener noreferrer"
           >
             <span>T</span>
             <span>w</span>
@@ -52,6 +54,7 @@ function Body() {
             className="body_link hover-shadow hover-color"
             target="_blank"
             aria-label="bot"
+            rel="noopener noreferrer"
           >
             <span>b</span>
             <span>o</span>
@@ -62,6 +65,7 @@ function Body() {
             className="body_link hover-shadow hover-color"
             target="_blank"
             aria-label="children"
+            rel="noopener noreferrer"
           >
             <span>c</span>
             <span>h</span>
@@ -79,6 +83,7 @@ function Body() {
             className="body_link_leading hover-shadow hover-color"
             target="_blank"
             aria-label="Podscript"
+            rel="noopener noreferrer"
           >
             <span>P</span>
             <span>o</span>
@@ -100,6 +105,7 @@ function Body() {
             className="body_link_leading hover-shadow hover-color"
             target="_blank"
             aria-label="podcast"
+            rel="noopener noreferrer"
           >
             <span>p</span>
             <span>o</span>

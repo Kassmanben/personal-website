@@ -78,7 +78,7 @@ class Projects extends Component {
         transition: "border .5s ease-in, max-width .6s, color .1s ease-in",
       },
     };
-    if (this.state.collapsed == "collapsed") {
+    if (this.state.collapsed === "collapsed") {
       customStyles.content.border = "transparent 4px double";
       customStyles.content.maxWidth = "0%";
       customStyles.content.color = "transparent";
@@ -106,10 +106,6 @@ class Projects extends Component {
     }
   };
 
-  updateWindowDimensions() {
-    this.setState({ width: window.innerWidth, height: window.innerHeight });
-  }
-
   handleModalCloseRequest = () => {
     setTimeout(
       function () {
@@ -132,22 +128,38 @@ class Projects extends Component {
       return (
         <ul>
           <li>
-            <a href="https://twitter.com/wikileek_" target="_blank">
+            <a
+              href="https://twitter.com/wikileek_"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Wikileek
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/influencer_bot" target="_blank">
+            <a
+              href="https://twitter.com/influencer_bot"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Influencer Apology Bot
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/mobydick_bot" target="_blank">
+            <a
+              href="https://twitter.com/mobydick_bot"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Moby Dick Bot
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/willshaky" target="_blank">
+            <a
+              href="https://twitter.com/willshaky"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Will Shaky
             </a>
           </li>
@@ -155,7 +167,11 @@ class Projects extends Component {
       );
     } else {
       return (
-        <a href={this.state.currentLink} target="_blank">
+        <a
+          href={this.state.currentLink}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Check out the {this.state.currentModal} website here.
         </a>
       );
@@ -176,6 +192,8 @@ class Projects extends Component {
                 target="_blank"
                 aria-label="Podscript"
                 onClick={this.toggleModal(PODSCRIPT)}
+                rel="noopener noreferrer"
+                href="/"
               >
                 <span>P</span>
                 <span>o</span>
@@ -197,6 +215,8 @@ class Projects extends Component {
                 className="hover-shadow-no-underline hover-color-no-underline botweek"
                 target="_blank"
                 aria-label="BotWeek"
+                rel="noopener noreferrer"
+                href="/"
               >
                 <span>B</span>
                 <span>o</span>
@@ -217,6 +237,8 @@ class Projects extends Component {
                 className="hover-shadow-no-underline hover-color-no-underline resilience"
                 target="_blank"
                 aria-label="Resilience1220"
+                rel="noopener noreferrer"
+                href="/"
               >
                 <span>R</span>
                 <span>e</span>
@@ -243,6 +265,8 @@ class Projects extends Component {
                 className="hover-shadow-no-underline hover-color-no-underline peacetree"
                 target="_blank"
                 aria-label="Peacetree"
+                rel="noopener noreferrer"
+                href="/"
               >
                 <span>P</span>
                 <span>e</span>
@@ -264,6 +288,8 @@ class Projects extends Component {
                 className="hover-shadow-no-underline hover-color-no-underline slice-of-life"
                 target="_blank"
                 aria-label="Slice Of Life"
+                rel="noopener noreferrer"
+                href="/"
               >
                 <span>S</span>
                 <span>l</span>
@@ -289,6 +315,8 @@ class Projects extends Component {
                 className="hover-shadow-no-underline hover-color-no-underline donation-calculation"
                 target="_blank"
                 aria-label="Donation Calculation"
+                rel="noopener noreferrer"
+                href="/"
               >
                 <span>D</span>
                 <span>o</span>

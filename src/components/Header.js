@@ -1,7 +1,5 @@
 import React from "react";
 import "./Header.scss";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Body from "./Body";
 
 function Header() {
   return (
