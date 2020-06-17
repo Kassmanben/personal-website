@@ -38,7 +38,7 @@ h1 {
     a {
       font-weight: 300;
       vertical-align: super;
-      display: none;
+      font-size: 0;
     }
   }
 }
@@ -133,7 +133,7 @@ h3 a {
     li {
       a {
         vertical-align: top;
-        display: initial;
+        font-size: larger;
       }
     }
     li:nth-child(even) {
