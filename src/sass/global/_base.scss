@@ -1,0 +1,25 @@
+$bg: "bg";
+$card-bg: "card-bg";
+$text: "text";
+$text-secondary: "text-secondary";
+$link: "link";
+$hover: "hover";
+$logo: "logo";
+$brand-blue: "brand-blue";
+$brand-red: "brand-red";
+$border: "border";
+
+.hover-link {
+  cursor: pointer;
+  display: inline-block;
+  span {
+    transition: all 0.5s;
+    @include text-shadow-timing;
+  }
+
+  &:hover {
+    span {
+      @include text-shadow-timing;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.nav-link {
+  padding: 10px calc(2vw);
+}
+
+@media screen and (min-width: 768px) {
+  .nav-link {
+    padding: 10px calc(3vw);
+  }
+}

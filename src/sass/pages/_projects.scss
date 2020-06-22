@@ -1,0 +1,66 @@
+.close {
+  position: absolute;
+  top: -1px;
+  right: 11px;
+  transition: all 0.6s;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.project-section {
+  background-color: white;
+  border: 4px black solid;
+  margin: 50px 20px;
+  border-radius: 10px;
+
+  h3 {
+    padding: 20px;
+    border-radius: 20px;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+  }
+
+  ul {
+    transition: all 0.5s;
+    transition-property: height;
+    transition-duration: 1s;
+    overflow: hidden;
+  }
+
+  li {
+    padding: 0.5em 0;
+  }
+}
+
+.ReactModal__Content--after-open a {
+  margin: 10px 0 0;
+  display: block;
+}
+
+#modal {
+  transition: all 0.5s ease-out;
+}
+
+.modal {
+  overflow: hidden;
+  transition: all 0.5s ease-out;
+  height: auto;
+  max-height: 600px;
+}
+.modal.collapsed {
+  max-height: 0;
+}
+
+@media screen and (min-width: 1000px) {
+  .projects_wrapper {
+    width: 25%;
+    margin: auto;
+  }
+
+  .project-section {
+    background-color: white;
+    margin: 50px auto;
+  }
+}

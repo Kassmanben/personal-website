@@ -1,0 +1,62 @@
+$bg--light: #fff;
+$text--light: #000;
+$border--light: #000;
+$bg--dark: #000;
+$text--dark: #fff;
+$border--dark: #fff;
+
+$themes: (
+  default: (
+    bg: $bg--light,
+    text: $text--light,
+    border: $border--light,
+  ),
+  dark: (
+    bg: $bg--dark,
+    text: $text--dark,
+    border: $border--dark,
+  ),
+);
+
+@mixin themed() {
+  @each $theme, $map in $themes {
+    .theme--#{$theme} & {
+      $theme-map: () !global;
+      @each $key, $submap in $map {
+        $value: map-get(map-get($themes, $theme), "#{$key}");
+        $theme-map: map-merge(
+          $theme-map,
+          (
+            $key: $value,
+          )
+        ) !global;
+      }
+      @content;
+      $theme-map: null !global;
+    }
+  }
+}
+
+@function t($key) {
+  @return map-get($theme-map, $key);
+}
+
+@mixin text-shadow-timing {
+  @for $i from 1 through 40 {
+    @if $i < 6 {
+      &:nth-child(#{$i}) {
+        transition-delay: #{$i * 0.05}s;
+      }
+    }
+    @if $i > 5 and $i < 11 {
+      &:nth-child(#{$i}) {
+        transition-delay: #{$i * 0.02 + 0.15}s;
+      }
+    }
+    @if $i > 10 {
+      &:nth-child(#{$i}) {
+        transition-delay: #{$i * 0.01 + 0.25}s;
+      }
+    }
+  }
+}

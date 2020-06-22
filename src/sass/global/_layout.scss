@@ -1,0 +1,48 @@
+.home,
+.contact-list,
+.projects {
+  display: grid;
+}
+
+.home,
+.contact-list {
+  gap: 1em;
+}
+
+.contact-list {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.profilePic {
+  grid-column: 1;
+}
+
+.desc {
+  grid-row: 2;
+}
+
+.project-section h3 {
+  grid-row: 1;
+}
+
+/* Tablet and larger  */
+@media screen and (min-width: 1000px) {
+  .home {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .desc {
+    grid-row: 1;
+    grid-column: 2;
+    margin: 5%;
+  }
+
+  .profilePic {
+    width: 60%;
+  }
+
+  .project-section {
+    display: grid;
+    column-gap: 50px;
+  }
+}

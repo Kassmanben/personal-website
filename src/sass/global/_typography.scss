@@ -1,0 +1,156 @@
+/////////////////// - FONT FAMILIES - ///////////////////
+.header {
+  font-family: "Righteous", sans-serif;
+}
+
+h3,
+nav,
+.contact,
+.home,
+.projects {
+  font-family: "Source Code Pro", sans-serif;
+}
+
+/////////////////// - FONT SIZES - ///////////////////
+h1 {
+  font-size: 34px;
+}
+
+h3,
+.close {
+  font-size: xx-large;
+}
+
+.home,
+.home-link span,
+.desc {
+  font-size: 22px;
+}
+
+.contact-list {
+  font-size: 13px;
+}
+
+.contact,
+.projects {
+  font-size: larger;
+}
+
+.contact-list li a {
+  font-size: 0;
+}
+
+.nav-link {
+  font-size: x-large;
+}
+
+.header {
+  font-size: 45px;
+}
+
+@media screen and (min-width: 1000px) {
+  h1,
+  .podscript,
+  .botweek,
+  .resilience,
+  .peacetree,
+  .slice-of-life {
+    font-size: 40px;
+  }
+
+  .header {
+    font-size: 80px;
+  }
+
+  .contact {
+    font-size: x-large;
+  }
+
+  .contact-list {
+    font-size: inherit;
+    li a {
+      font-size: larger;
+    }
+  }
+
+  .donation-calculation {
+    font-size: 29px;
+  }
+
+  .nav-link {
+    font-size: xx-large;
+  }
+}
+
+/////////////////// - FONT WEIGHT - ///////////////////
+p,
+hover-link span,
+.contact-list li a {
+  font-weight: 300;
+}
+
+h3,
+.hover-link:hover span {
+  font-weight: 700;
+}
+
+/////////////////// - TEXT COLOR - ///////////////////
+a,
+.header,
+.hover-link,
+nav-link .close {
+  color: #000;
+}
+
+.modal.collapsed.close {
+  color: transparent;
+}
+
+/////////////////// - TEXT DECORATION - ///////////////////
+.hover-link,
+nav-link {
+  text-decoration: underline;
+}
+
+/////////////////// - TEXT ALIGNMENT - ///////////////////
+h3,
+.contact,
+.desc,
+.contact-list {
+  text-align: left;
+}
+
+.App,
+.contact-list,
+.projects,
+.project-section {
+  text-align: center;
+}
+
+/////////////////// - TEXT SHADOW - ///////////////////
+.header {
+  text-shadow: -0.04em 0 #f1a0ff, 0.04em 0 #74c7e8;
+  &:hover {
+    text-shadow: none;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .podscript:hover {
+    text-shadow: -8.8em 0 #f1a0ff, 8.8em 0 #74c7e8;
+  }
+  .botweek:hover {
+    text-shadow: -8.5em 0 #f1a0ff, 8.5em 0 #74c7e8;
+  }
+  .resilience:hover {
+    text-shadow: -10.5em 0 #f1a0ff, 10.5em 0 #74c7e8;
+  }
+  .peacetree:hover {
+    text-shadow: -8.8em 0 #f1a0ff, 8.8em 0 #74c7e8;
+  }
+  .slice-of-life:hover {
+    text-shadow: -10em 0 #f1a0ff, 10em 0 #74c7e8;
+  }
+  .donation-calculation:hover {
+    text-shadow: -14em 0 #f1a0ff, 14em 0 #74c7e8;
+  }
+}

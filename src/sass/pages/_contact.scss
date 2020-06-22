@@ -1,0 +1,30 @@
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px auto;
+  li svg {
+    padding: 0 0.3em 0 0;
+  }
+
+  li a {
+    vertical-align: super;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .contact {
+    width: 50%;
+    margin: 40px auto;
+  }
+
+  .contact-list {
+    width: 62%;
+    margin: 0 auto;
+    li a {
+      vertical-align: top;
+    }
+    li:nth-child(even) {
+      padding-left: 1.5em;
+    }
+  }
+}
