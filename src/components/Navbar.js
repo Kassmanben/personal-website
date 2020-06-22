@@ -1,7 +1,6 @@
 import React from "react";
-import "./Navbar.css";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Body from "./Body";
+import Home from "./Home";
 import Projects from "./Projects";
 import Contact from "./Contact";
 
@@ -55,7 +54,7 @@ function Navbar() {
             <Contact />
           </Route>
           <Route path="/">
-            <Body />
+            <Home />
           </Route>
         </Switch>
       </div>

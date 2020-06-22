@@ -1,5 +1,4 @@
 import React from "react";
-import "./Contact.scss";
 
 function Contact() {
   return (
@@ -100,7 +99,6 @@ function Contact() {
         particular to projects focusing on the three A's:{" "}
         <b>accessibility, activism, & absurdist humor</b>
       </p>
-
       <ul className="contact-list">
         <li>
           <a

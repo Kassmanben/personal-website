@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Modal from "react-modal";
-import "./Projects.scss";
 
 const PODSCRIPT = "Podscript";
 const BOTWEEK = "Bot Week";
@@ -185,7 +184,7 @@ class Projects extends Component {
       <div className="projects">
         {this.state.showBots}
         <div className="projects_wrapper">
-          <div className="project_section">
+          <div className="project-section">
             <h3>
               <a
                 className="hover-link podscript"
@@ -208,7 +207,7 @@ class Projects extends Component {
             </h3>
           </div>
 
-          <div className="project_section">
+          <div className="project-section">
             <h3>
               <a
                 onClick={this.toggleModal(BOTWEEK)}
@@ -230,7 +229,7 @@ class Projects extends Component {
             </h3>
           </div>
 
-          <div className="project_section">
+          <div className="project-section">
             <h3>
               <a
                 onClick={this.toggleModal(RESILIENCE1220)}
@@ -258,7 +257,7 @@ class Projects extends Component {
             </h3>
           </div>
 
-          <div className="project_section">
+          <div className="project-section">
             <h3>
               <a
                 onClick={this.toggleModal(PEACETREE)}
@@ -281,7 +280,7 @@ class Projects extends Component {
             </h3>
           </div>
 
-          <div className="project_section">
+          <div className="project-section">
             <h3>
               <a
                 onClick={this.toggleModal(SLICEOFLIFE)}
@@ -308,7 +307,7 @@ class Projects extends Component {
             </h3>
           </div>
 
-          <div className="project_section">
+          <div className="project-section">
             <h3>
               <a
                 onClick={this.toggleModal(DONATIONCALCULATION)}
