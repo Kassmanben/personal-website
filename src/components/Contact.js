@@ -8,35 +8,15 @@ function Contact() {
         job offers.
       </p>
       <p>
-        I am, however, happy to speak at your conference! I gave{" "}
+        I am, however, happy to speak at your conference! I gave a conference
+        talk{" "}
         <a
           href="https://www.youtube.com/watch?v=NOcdJQW5Rqs"
           className="hover-link"
           target="_blank"
-          aria-label="a conference talk at Donut.js"
+          aria-label="Donut.js"
           rel="noopener noreferrer"
         >
-          <span>a</span>
-          <span> </span>
-          <span>c</span>
-          <span>o</span>
-          <span>n</span>
-          <span>f</span>
-          <span>e</span>
-          <span>r</span>
-          <span>e</span>
-          <span>n</span>
-          <span>c</span>
-          <span>e</span>
-          <span> </span>
-          <span>t</span>
-          <span>a</span>
-          <span>l</span>
-          <span>k</span>
-          <span> </span>
-          <span>a</span>
-          <span>t</span>
-          <span> </span>
           <span>D</span>
           <span>o</span>
           <span>n</span>

@@ -1,13 +1,5 @@
-h1 {
-  margin: 0 0 12px;
-}
-
 h3 {
-  margin: 0;
-}
-
-li {
-  text-align: left;
+  margin: 4px 0;
 }
 
 ul {
@@ -19,10 +11,9 @@ nav {
   margin: 20px 0 0;
 }
 
-a:link,
-a:visited,
-a:hover,
-a:active {
-  color: black;
+:any-link {
+  @include themed() {
+    color: t($text);
+  }
   cursor: pointer;
 }

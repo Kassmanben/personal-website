@@ -1,20 +1,35 @@
+$bg: "bg";
+$text: "text";
+$border: "border";
+$tsl: "textShadowLeft";
+$tsr: "textShadowRight";
+
 $bg--light: #fff;
-$text--light: #000;
-$border--light: #000;
-$bg--dark: #000;
+$text--light: #443d45;
+$border--light: #443d45;
+$text-shadow-left--light: #f1a0ff;
+$text-shadow-right--light: #74c7e8;
+
+$bg--dark: #443d45;
 $text--dark: #fff;
 $border--dark: #fff;
+$text-shadow-left--dark: #f1a0ff;
+$text-shadow-right--dark: #74c7e8;
 
 $themes: (
   default: (
     bg: $bg--light,
     text: $text--light,
     border: $border--light,
+    textShadowLeft: $text-shadow-left--light,
+    textShadowRight: $text-shadow-right--light,
   ),
   dark: (
     bg: $bg--dark,
     text: $text--dark,
     border: $border--dark,
+    textShadowLeft: $text-shadow-left--dark,
+    textShadowRight: $text-shadow-right--dark,
   ),
 );
 

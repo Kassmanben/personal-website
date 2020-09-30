@@ -9,6 +9,10 @@
   gap: 1em;
 }
 
+.contact {
+  margin: 0 7%;
+}
+
 .contact-list {
   grid-template-columns: repeat(2, 1fr);
 }
@@ -27,6 +31,9 @@
 
 /* Tablet and larger  */
 @media screen and (min-width: 1000px) {
+  .contact {
+    margin: auto;
+  }
   .home {
     grid-template-columns: repeat(2, 1fr);
   }

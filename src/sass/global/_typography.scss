@@ -12,8 +12,28 @@ nav,
 }
 
 /////////////////// - FONT SIZES - ///////////////////
-h1 {
-  font-size: 34px;
+.contact-list li a {
+  font-size: 0;
+}
+
+.home,
+.home-link span,
+.desc,
+.contact,
+.modal-text {
+  font-size: 18px;
+}
+
+.donation-calculation {
+  font-size: 22px;
+}
+
+.header {
+  font-size: 45px;
+}
+
+.nav-link {
+  font-size: x-large;
 }
 
 h3,
@@ -21,35 +41,11 @@ h3,
   font-size: xx-large;
 }
 
-.home,
-.home-link span,
-.desc {
-  font-size: 22px;
-}
-
-.contact-list {
-  font-size: 13px;
-}
-
-.contact,
-.projects {
-  font-size: larger;
-}
-
-.contact-list li a {
-  font-size: 0;
-}
-
-.nav-link {
-  font-size: x-large;
-}
-
-.header {
-  font-size: 45px;
-}
-
 @media screen and (min-width: 1000px) {
-  h1,
+  .donation-calculation {
+    font-size: 29px;
+  }
+
   .podscript,
   .botweek,
   .resilience,
@@ -62,19 +58,12 @@ h3,
     font-size: 80px;
   }
 
-  .contact {
+  .home,
+  .home-link span,
+  .desc,
+  .contact,
+  .contact-list li a {
     font-size: x-large;
-  }
-
-  .contact-list {
-    font-size: inherit;
-    li a {
-      font-size: larger;
-    }
-  }
-
-  .donation-calculation {
-    font-size: 29px;
   }
 
   .nav-link {
@@ -85,6 +74,7 @@ h3,
 /////////////////// - FONT WEIGHT - ///////////////////
 p,
 hover-link span,
+.modal-text,
 .contact-list li a {
   font-weight: 300;
 }
@@ -96,10 +86,16 @@ h3,
 
 /////////////////// - TEXT COLOR - ///////////////////
 a,
+p,
 .header,
 .hover-link,
-nav-link .close {
-  color: #000;
+nav-link,
+.close,
+.modal-link,
+.ReactModalPortal {
+  @include themed() {
+    color: t($text);
+  }
 }
 
 .modal.collapsed.close {
@@ -115,11 +111,11 @@ nav-link {
 /////////////////// - TEXT ALIGNMENT - ///////////////////
 h3,
 .contact,
-.desc,
-.contact-list {
+.desc {
   text-align: left;
 }
 
+.root,
 .App,
 .contact-list,
 .projects,
@@ -127,30 +123,51 @@ h3,
   text-align: center;
 }
 
+@media screen and (min-width: 1000px) {
+  .contact-list {
+    text-align: left;
+  }
+}
+
 /////////////////// - TEXT SHADOW - ///////////////////
 .header {
-  text-shadow: -0.04em 0 #f1a0ff, 0.04em 0 #74c7e8;
+  @include themed() {
+    text-shadow: -0.04em 0 t($tsl), 0.04em 0 t($tsr);
+  }
   &:hover {
     text-shadow: none;
   }
 }
+
 @media screen and (min-width: 1000px) {
   .podscript:hover {
-    text-shadow: -8.8em 0 #f1a0ff, 8.8em 0 #74c7e8;
+    @include themed() {
+      text-shadow: -9.3em 0 t($tsl), 9.3em 0 t($tsr);
+    }
   }
   .botweek:hover {
-    text-shadow: -8.5em 0 #f1a0ff, 8.5em 0 #74c7e8;
+    @include themed() {
+      text-shadow: -9em 0 t($tsl), 9em 0 t($tsr);
+    }
   }
   .resilience:hover {
-    text-shadow: -10.5em 0 #f1a0ff, 10.5em 0 #74c7e8;
+    @include themed() {
+      text-shadow: -11em 0 t($tsl), 11em 0 t($tsr);
+    }
   }
   .peacetree:hover {
-    text-shadow: -8.8em 0 #f1a0ff, 8.8em 0 #74c7e8;
+    @include themed() {
+      text-shadow: -9.3em 0 t($tsl), 9.3em 0 t($tsr);
+    }
   }
   .slice-of-life:hover {
-    text-shadow: -10em 0 #f1a0ff, 10em 0 #74c7e8;
+    @include themed() {
+      text-shadow: -10.5em 0 t($tsl), 10.5em 0 t($tsr);
+    }
   }
   .donation-calculation:hover {
-    text-shadow: -14em 0 #f1a0ff, 14em 0 #74c7e8;
+    @include themed() {
+      text-shadow: -15.5em 0 t($tsl), 15.5em 0 t($tsr);
+    }
   }
 }

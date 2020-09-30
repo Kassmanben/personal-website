@@ -85,7 +85,7 @@ class Projects extends Component {
       customStyles.content.border = "#45c3ff 4px double";
       customStyles.content.maxWidth = this.state.width > 1000 ? "36%" : "80%";
       customStyles.content.top = this.state.width > 1000 ? "37%" : "50%";
-      customStyles.content.color = "#272727";
+      customStyles.content.color = "#464646";
     }
     return customStyles;
   };
@@ -170,6 +170,7 @@ class Projects extends Component {
           href={this.state.currentLink}
           target="_blank"
           rel="noopener noreferrer"
+          class="modal-link"
         >
           Check out the {this.state.currentModal} website here.
         </a>
@@ -357,14 +358,25 @@ class Projects extends Component {
           style={this.getStyles()}
           ariaHideApp={false}
         >
-          <div className={"modal " + this.state.collapsed}>
+          <div
+            className={
+              "modal theme " +
+              (this.state.dark ? "theme--dark " : "theme--default ") +
+              this.state.collapsed
+            }
+          >
             <div className="close" onClick={this.toggleModal(null)}>
               x
             </div>
-            <h1 id="heading" ref={(h1) => (this.heading = h1)}>
+            <h3 id="heading" ref={(h3) => (this.heading = h3)}>
               {this.state.currentModal}
-            </h1>
-            <div id="fulldescription" tabIndex="0" role="document">
+            </h3>
+            <div
+              id="fulldescription"
+              className="modal-text"
+              tabIndex="0"
+              role="document"
+            >
               {this.state.currentText}
             </div>
             {this.botList()}

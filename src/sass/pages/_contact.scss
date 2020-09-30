@@ -1,14 +1,31 @@
 .contact-list {
   list-style-type: none;
-  padding: 0;
+  padding: 10px 0;
   margin: 20px auto;
   li svg {
     padding: 0 0.3em 0 0;
+    position: relative;
+    @include themed() {
+      fill: t($text);
+    }
   }
 
   li a {
     vertical-align: super;
   }
+}
+
+.jam-linkedin {
+  top: 3px;
+}
+
+.jam-envelope {
+  top: 4px;
+}
+
+.jam-instagram,
+.jam-twitter {
+  top: 5px;
 }
 
 @media screen and (min-width: 1000px) {
